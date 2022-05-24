@@ -3,6 +3,7 @@ layout: page
 permalink: /contact/
 title: contact
 horizontal: false
+nav: true
 ---
 <style>
 /* Set the size of the div element that contains the map */
@@ -32,11 +33,11 @@ function initMap() {
 window.initMap = initMap;
 </script>
 <h2>Address</h2>
-Mudd Hall
-2233 Tech Drive, Third Floor
+Mudd Hall <br>
+2233 Tech Drive, Third Floor <br>
 Evanston, IL 60208
 <div id="map"></div>
 <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPmWWlXbEAkCGlaNN3Ov_cnPVwLgwIAzs&callback=initMap&v=weekly"
       defer
     ></script>
