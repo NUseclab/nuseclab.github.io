@@ -13,8 +13,8 @@ horizontal: false
 <p>
 <div class="member">
   <a href="http://www.cs.northwestern.edu/~ychen/">
-    <p><img src="assets/img/people/yanchen.png" alt="Yan Chen">
-    <p>Yan Chen (Area: System & Software Security)
+    <p><img src="assets/img/people/chen-yan.jpeg" alt="Yan Chen"></p>
+    <p>Yan Chen (Area: System & Software Security)</p>
   </a>
 </div>
 
