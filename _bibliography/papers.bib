@@ -1,9 +1,10 @@
 ---
 ---
 
-@inproceedings {280034,
+@INPROCEEDINGS{280034,
 bibtex_show={true},
 abbr={USENIX},
+author={Zeng, Kyle and Chen, Yueqi and Cho, Haehyun and Xing, Xinyu and Doup{\'e}, Adam and Shoshitaishvili, Yan and Bao, Tiffany},
 title = {Playing for {K(H)eaps}: Understanding and Improving Linux Kernel Exploit Reliability},
 booktitle = {31st USENIX Security Symposium (USENIX Security 22)},
 year = {2022},
@@ -13,23 +14,103 @@ url={https://www.usenix.org/conference/usenixsecurity22/presentation/zeng},
 pdf={https://www.usenix.org/system/files/sec22fall_zeng.pdf},
 selected = {true}
 }
-
-@INPROCEEDINGS {grebe,
+@INPROCEEDINGS{grebe,
 bibtex_show={true},
 abbr={S&P},
-author = {Z. Lin and Y. Chen and Y. Wu and C. Yu and D. Mu and X. Xing and K. Li},
-booktitle = {2022 2022 IEEE Symposium on Security and Privacy (SP) (SP)},
+author = {Lin, Zhenpeng and Chen, Yueqi and Wu, Yuhang and Yu, Chensheng and Mu, Dongliang and Xing, Xinyu and Li, Kang},
+booktitle = {Proceedings of the 2022 IEEE Symposium on Security and Privacy},
 title = {GREBE: Unveiling Exploitation Potential for Linux Kernel Bugs},
 year = {2022},
-volume = {},
-issn = {2375-1207},
-pages = {1217-1234},
-keywords = {os-security;vulnerability-exploitation;fuzzing},
-doi = {10.1109/SP46214.2022.00071},
-url = {https://doi.ieeecomputersociety.org/10.1109/SP46214.2022.00071},
 pdf = {https://zplin.me/papers/GREBE.pdf},
-publisher = {IEEE Computer Society},
-address = {Los Alamitos, CA, USA},
-month = {may},
+selected = {true}
+}
+
+@INPROCEEDINGS{dongliangndss2022,
+  bibtex_show={true},
+  abbr={S&P},
+  title={An In-depth Analysis of Duplicated Linux Kernel Bug Reports},
+  author={Mu, Dongliang and Wu, Yuhang and Chen, Yueqi and Lin, Zhenpeng and Yu, Chensheng and Xing, Xinyu and Wang, Gang},
+  booktitle={Proceedings 2022 Network and Distributed System Security Symposium},
+  year = {2022},
+  pdf = {https://www.ndss-symposium.org/wp-content/uploads/2022-159-paper.pdf},
+  selected = {true}
+}
+
+@INPROCEEDINGS{luo2022proving,
+  bibtex_show={true},
+  abbr={CCS},
+  title={Proving UNSAT in Zero Knowledge},
+  author={Luo, Ning and Antonopoulos, Timos and Harris, William and Piskac, Ruzica and Tromer, Eran and Wang, Xiao},
+  booktitle={Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security},
+  year={2022},
+  selected = {true}
+}
+
+@INPROCEEDINGS {279904,
+ bibtex_show={true},
+  abbr={USENIX},
+title = {{ppSAT}: Towards {Two-Party} Private {SAT} Solving},
+booktitle = {31st USENIX Security Symposium (USENIX Security 22)},
+author={Luo, Ning and Judson, Samuel and Antonopoulos, Timos and Piskac, Ruzica and Wang, Xiao},
+year = {2022},
+address = {Boston, MA},
+url = {https://www.usenix.org/conference/usenixsecurity22/presentation/luo},
+publisher = {USENIX Association},
+month = aug,
+pdf={https://www.usenix.org/system/files/sec22fall_luo.pdf},
+selected = {true}
+}
+
+@INPROCEEDINGS{DBLPwangxiao,
+ bibtex_show={true},
+  abbr={CVPR},
+  title={Federated Class-Incremental Learning},
+  author={Dong, Jiahua and Wang, Lixu and Fang, Zhen and Sun, Gan and Xu, Shichao and Wang, Xiao and Zhu, Qi},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition, {CVPR}
+               2022},
+  publisher = {Computer Vision Foundation / {IEEE}},
+  year      = {2022},
+  selected = {true}
+}
+
+@INPROCEEDINGS{wang2022nontransferable,
+bibtex_show={true},
+abbr={ICLR},
+title={Non-Transferable Learning: A New Approach for Model Ownership Verification and Applicability Authorization},
+author={Lixu Wang and Shichao Xu and Ruiqi Xu and Xiao Wang and Qi Zhu},
+booktitle={International Conference on Learning Representations},
+year={2022},
+url={https://openreview.net/forum?id=tYRrOdSnVUy}
+}
+
+@ARTICLE{9674230,  
+bibtex_show={true},
+abbr={TDSC},
+author={Jin, Ling and Cao, Yinzhi and Chen, Yan and Zhang, Di and Campanoni, Simone},  
+journal={IEEE Transactions on Dependable and Secure Computing},   
+title={EXGEN: Cross-platform, Automated Exploit Generation for Smart Contract Vulnerabilities},   
+year={2022},  
+pages={1-1},  
+doi={10.1109/TDSC.2022.3141396},
+}
+
+@inproceedings{10.1145/3503222.3507771,
+bibtex_show={true},
+abbr={ASPLOS},
+author = {Suchy, Brian and Ghosh, Souradip and Kersnar, Drew and Chai, Siyuan and Huang, Zhen and Nelson, Aaron and Cuevas, Michael and Bernat, Alex and Chaudhary, Gaurav and Hardavellas, Nikos and Campanoni, Simone and Dinda, Peter},
+title = {CARAT CAKE: Replacing Paging via Compiler/Kernel Cooperation},
+year = {2022},
+isbn = {9781450392051},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3503222.3507771},
+doi = {10.1145/3503222.3507771},
+abstract = {Virtual memory, specifically paging, is undergoing significant innovation due to being challenged by new demands from modern workloads. Recent work has demonstrated an alternative software only design that can result in simplified hardware requirements, even supporting purely physical addressing. While we have made the case for this Compiler- And Runtime-based Address Translation (CARAT) concept, its evaluation was based on a user-level prototype. We now report on incorporating CARAT into a kernel, forming Compiler- And Runtime-based Address Translation for CollAborative Kernel Environments (CARAT CAKE). In our implementation, a Linux-compatible x64 process abstraction can be based either on CARAT CAKE, or on a sophisticated paging implementation. Implementing CARAT CAKE involves kernel changes and compiler optimizations/transformations that must work on all code in the system, including kernel code. We evaluate CARAT CAKE in comparison with paging and find that CARAT CAKE is able to achieve the functionality of paging (protection, mapping, and movement properties) with minimal overhead. In turn, CARAT CAKE allows significant new benefits for systems including energy savings, larger L1 caches, and arbitrary granularity memory management.},
+booktitle = {Proceedings of the 27th ACM International Conference on Architectural Support for Programming Languages and Operating Systems},
+pages = {98–114},
+numpages = {17},
+keywords = {virtual memory, runtime, kernel, memory management},
+location = {Lausanne, Switzerland},
+series = {ASPLOS 2022},
 selected = {true}
 }
