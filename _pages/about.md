@@ -4,13 +4,6 @@ title: about
 permalink: /
 subtitle: 
 
-profile:
-  align: right
-  image: mudd.png
-  address: >
-    <p>Mudd Hall</p>
-    <p>2233 Tech Drive, Third Floor</p>
-    <p>Evanston, IL 60208</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
