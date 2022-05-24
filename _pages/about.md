@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: nuseclab.webp
+  image: mudd.png
   address: >
     <p>Mudd Hall</p>
     <p>2233 Tech Drive, Third Floor</p>
