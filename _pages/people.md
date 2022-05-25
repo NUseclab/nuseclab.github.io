@@ -17,6 +17,11 @@ horizontal: false
     <p><a href="http://www.cs.northwestern.edu/~ychen/">Yan Chen</a> (Area: Networking & System Security)</p>
 </div>
 <div class="member">
+  <a href="http://pdinda.org/">
+    <p><img src="/assets/img/people/dinda-peter.jpeg" alt="Peter Dinda"></p></a>
+    <p><a href="http://pdinda.org/"> Peter Dinda</a> (Area: System & Security)</p>
+</div>
+<div class="member">
   <a href="http://users.eecs.northwestern.edu/~jennie/">
     <p><img src="/assets/img/people/rogers-jennie.jpeg" alt="Jennie Rogers"></p></a>
     <p><a href="http://users.eecs.northwestern.edu/~jennie/">Jennie Rogers</a> (Area: Privacy)</p>
@@ -35,11 +40,6 @@ horizontal: false
   <a href="http://xinyuxing.org/">
     <p><img src="/assets/img/people/xing-xinyu.jpeg" alt="Xinyu Xing"></p></a>
     <p><a href="http://xinyuxing.org/"> Xinyu Xing</a> (Area: System & Software Security; AI Security)</p>
-</div>
-<div class="member">
-  <a href="http://pdinda.org/">
-    <p><img src="/assets/img/people/dinda-peter.jpeg" alt="Peter Dinda"></p></a>
-    <p><a href="http://pdinda.org/"> Peter Dinda</a> (Area: System & Security)</p>
 </div>
 </p>
 
