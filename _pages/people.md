@@ -14,8 +14,10 @@ horizontal: false
 <div class="member">
   <a href="http://www.cs.northwestern.edu/~ychen/">
     <p><img src="/assets/img/people/chen-yan.jpeg" alt="Yan Chen"></p>
-    <p>Yan Chen (Area: System & Software Security)</p>
+    <p>Yan Chen (Area: Networking & System Security)</p>
   </a>
+  <br>
+  <p><a href="http://list.cs.northwestern.edu">Internet and Security Technology Lab</a></p>
 </div>
 <div class="member">
   <a href="http://users.eecs.northwestern.edu/~jennie/">

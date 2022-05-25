@@ -5,7 +5,7 @@ title: contact
 horizontal: false
 nav: true
 ---
-<h2>Address</h2>
+<h2>address</h2>
 Mudd Hall <br>
 2233 Tech Drive, Third Floor <br>
 Evanston, IL 60208
