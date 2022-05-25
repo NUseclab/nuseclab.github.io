@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /contact/
-title: contact
+permalink: /visiting/
+title: visiting
 horizontal: false
 nav: true
 ---

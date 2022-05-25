@@ -16,7 +16,6 @@ horizontal: false
     <p><img src="/assets/img/people/chen-yan.jpeg" alt="Yan Chen"></p>
     <p>Yan Chen (Area: Networking & System Security)</p>
   </a>
-  <br>
   <p><a href="http://list.cs.northwestern.edu">Internet and Security Technology Lab</a></p>
 </div>
 <div class="member">
